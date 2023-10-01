@@ -40,5 +40,9 @@ public class Main {
         Cooker cooker1 = new Cooker();
         Cooker cooker2 = new Cooker();
         Cooker cooker3 = new Cooker();
+
+        Bicycle.MountainBike mountainBike1 = new Bicycle.MountainBike("Front", "Michelin");
+        Bicycle.MountainBike mountainBike2 = new Bicycle.MountainBike("Back", "Continental");
+        Bicycle.MountainBike mountainBike3 = new Bicycle.MountainBike("Front", "Michelin");
     }
 }
