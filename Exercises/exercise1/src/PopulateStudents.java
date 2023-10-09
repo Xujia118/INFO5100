@@ -1,13 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.Random;
 
-public class PopulateStudents {
+public class PopulateStudents {3
 
     public static List<Students> create_session(List<String> studentList) {
 
-        // Create a list of objects. Type [name, [...quiz_scores...], [...exam_scores...]
+        // Create a list of student objects. Type [name, [...quiz_scores...], [...exam_scores...]]
         List<Students> students = new ArrayList<>();
 
         // Instantiate 10 full-time students
@@ -37,6 +36,4 @@ public class PopulateStudents {
         }
         return scores;
     }
-
-
 }
