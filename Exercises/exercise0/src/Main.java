@@ -44,5 +44,9 @@ public class Main {
         Bicycle.MountainBike mountainBike1 = new Bicycle.MountainBike("Front", "Michelin");
         Bicycle.MountainBike mountainBike2 = new Bicycle.MountainBike("Back", "Continental");
         Bicycle.MountainBike mountainBike3 = new Bicycle.MountainBike("Front", "Michelin");
+
+        Bicycle.CityBike cityBike1 = new Bicycle.CityBike(true, true);
+        Bicycle.CityBike cityBike2 = new Bicycle.CityBike(true, false);
+        Bicycle.CityBike cityBike3 = new Bicycle.CityBike(true, false);
     }
 }
